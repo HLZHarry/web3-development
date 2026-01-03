@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hardhat
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Foundry
+out/
+forge-cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.secret
+private-keys.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+coverage.json
+
+# Deployment
+build/
+dist/
+
+# Misc
+.cache/
+temp/
+.DS_Store
+
+# Private keys
+keys/
+*.json (except package.json and config files)
+!package.json
+!hardhat.config.js
